@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/khelntxq/tipu.me/
+    - /bin/cp -R images $DEPLOYPATH
